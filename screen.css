@@ -217,37 +217,62 @@ textarea {
 
 /*Me*/
 
+html{
+  background-color: #f9f9f9;
+}
+
 h1 {
   font-size: 200%;
-  font-family: Verdana, Geneva, sans-serif;  
-  color:#128ee2;
+  font-family: 'Fjalla One', serif;
+  color: white;
   text-align: center;
   padding-top:20px
-
 }
 h2{
   font-size: 150%;
   text-align: center;
-  font-family: Verdana, Geneva, sans-serif;  
-
+  font-family: 'Open Sans', sans-serif;
+}
+label{
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+ font-family: 'Roboto Slab', serif;
+ color: white;
+}
+.wrapper{
+  width: auto;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
 }
 #header{
-width:50%;
-background-color: #eaeaea;
-display:inline-block;
-}
-#wrapper{
-  width:100%;
-  text-align: center;
-}
-
-#center{
-  width: 50%;
+  width: 43%; 
+  background-color: #128ee2;
   display: inline-block;
-  background-color: #f9f9f9;
+}
+.center{
+  width: 43%;
+  display: inline-block;
+  background-color: white;
+  overflow: hidden;
+}
+.clear{
+  clear: right;
 }
 
-
+.button{
+  background-color:#128ee2; 
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px; 
+  padding: 10px 20px;
+}
+.pic{
+  width:30%;
+  height: auto;
+}
 
 
 @media screen and (min-width: 480px)
