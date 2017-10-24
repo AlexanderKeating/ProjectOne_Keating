@@ -354,12 +354,12 @@ p {
     font-family: 'Roboto Slab', serif;
     color: white;
 }
-
 .wrapper {
     width: auto;
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+
 }
 
 #header {
@@ -392,7 +392,6 @@ p {
     width: 20%;
     height: auto;
 }
-
 
 
 /*
@@ -443,7 +442,26 @@ p {
         padding-top: 20px;
     }
 }
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 480px) {
+    fieldset {
+        text-align: center;
+        color: #4A6F71;
+    }
+    .describe {
+        font-size: 1.5em;
+    }
+    label {
+
+        margin-right: 5px;
+
+    }
+    #submit_buttom {
+        padding-top: 20px;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -480,7 +498,7 @@ p {
         padding-top: 20px;
     }
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -517,7 +535,7 @@ p {
         padding-top: 20px;
     }
 }
-@media screen and (min-width: 240px) {
+@media screen and (max-width: 240px) {
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -554,22 +572,5 @@ p {
         padding-top: 20px;
     }
 }
-@media screen and (min-width: 480px) {
-    fieldset {
-        text-align: center;
-        color: #4A6F71;
-    }
-    .describe {
-        font-size: 1.5em;
-    }
-    label {
 
-        margin-right: 5px;
-
-    }
-    #submit_buttom {
-        padding-top: 20px;
-
-    }
-}
 
