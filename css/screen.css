@@ -333,7 +333,7 @@ html {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 3em;
     font-family: 'Fjalla One', serif;
     color: white;
     text-align: center;
@@ -341,7 +341,7 @@ h1 {
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 1.5em;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -351,9 +351,11 @@ label {
 }
 
 p {
+    font-size: 1em;
     font-family: 'Roboto Slab', serif;
     color: white;
 }
+
 .wrapper {
     width: auto;
     text-align: center;
@@ -364,7 +366,9 @@ p {
 
 #header {
     width: 43%;
+    padding: 7px;
     background-color: #128ee2;
+    padding: 5px;
     display: inline-block;
 }
 
@@ -405,7 +409,31 @@ p {
     ***********
       *******
 */
-@media screen and (max-width: 720px) {
+
+@media screen and (max-width: 1500px) {
+    h1 {
+        font-size: 3em;
+        font-family: 'Fjalla One', serif;
+        color: white;
+        text-align: center;
+        padding-top: 20px
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -442,6 +470,129 @@ p {
         padding-top: 20px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 3em;
+        font-family: 'Fjalla One', serif;
+        color: white;
+        text-align: center;
+        padding-top: 20px
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
+    fieldset {
+        text-align: center;
+        color: #4A6F71;
+    }
+    .pic {
+        width: 50%;
+        height: auto;
+    }
+    .center {
+        width: 100%;
+        display: inline-block;
+        background-color: white;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        background-color: #128ee2;
+        display: inline-block;
+        padding: 5px;
+    }
+    .wrapper {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .describe {
+        font-size: 1.5em;
+    }
+    label {
+        margin-right: 5px;
+    }
+    #submit_buttom {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 3em;
+        font-family: 'Fjalla One', serif;
+        color: white;
+        text-align: center;
+        padding-top: 20px
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
+    fieldset {
+        text-align: center;
+        color: #4A6F71;
+    }
+    .pic {
+        width: 50%;
+        height: auto;
+    }
+    .center {
+        width: 100%;
+        display: inline-block;
+        background-color: white;
+        overflow: hidden;
+    }
+    #header {
+        width: 100%;
+        background-color: #128ee2;
+        display: inline-block;
+        padding: 5px;
+    }
+    .wrapper {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .describe {
+        font-size: 1.5em;
+    }
+    label {
+        margin-right: 5px;
+    }
+    #submit_buttom {
+        padding-top: 20px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     fieldset {
         text-align: center;
@@ -462,6 +613,29 @@ p {
 }
 
 @media screen and (max-width: 414px) {
+    h1 {
+        font-size: 3em;
+        font-family: 'Fjalla One', serif;
+        color: white;
+        text-align: center;
+        padding-top: 20px
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -498,7 +672,31 @@ p {
         padding-top: 20px;
     }
 }
+
 @media screen and (max-width: 320px) {
+    h1 {
+        font-size: 3em;
+        font-family: 'Fjalla One', serif;
+        color: white;
+        text-align: center;
+        padding-top: 20px
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -535,7 +733,31 @@ p {
         padding-top: 20px;
     }
 }
+
 @media screen and (max-width: 240px) {
+    h1 {
+        font-size: 3em;
+        font-family: 'Fjalla One', serif;
+        color: white;
+        text-align: center;
+        padding-top: 20px
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Roboto Slab', serif;
+        color: white;
+    }
     fieldset {
         text-align: center;
         color: #4A6F71;
@@ -572,5 +794,3 @@ p {
         padding-top: 20px;
     }
 }
-
-
